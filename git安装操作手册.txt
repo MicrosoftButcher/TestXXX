@@ -1,0 +1,9 @@
+1、先安装并配置好Git-2.31.1-64-bit.exe后，在安装TortoiseGit-2.12.0.0-64bit.msi
+2、配置Git
+安装完毕Git后，右键->Git bash Here
+$ ssh-keygen.exe  一直回车键 知道完毕
+$ cat ~/.ssh/id_rsa.pub 查看并复制sshkey，登录gitLab，粘贴到/profile/preferences里面的SSH Keys中
+
+3、拉代码
+右键->git clone
+
